@@ -136,7 +136,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover,
+button:active,
+button:focus {
   background-color: var(--Green-700);
 }
 
